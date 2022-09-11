@@ -21,3 +21,15 @@ Fill me in please! Don’t forget code examples:
 ```
 
     2
+
+## Test datetime
+
+``` python
+import datetime
+```
+
+``` python
+print(f'time = {datetime.datetime.now()}')
+```
+
+    time = 2022-09-11 13:09:47.273023
