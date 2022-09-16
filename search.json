@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "test_ipywidget_evaluate.html",
+    "href": "test_ipywidget_evaluate.html",
+    "title": "Test out evaluating ipywidget code",
+    "section": "",
+    "text": "import datetime\n\n\nprint(f'time = {datetime.datetime.now()}')\n\ntime = 2022-09-16 02:17:48.101314"
+  },
+  {
+    "objectID": "test_ipywidget_evaluate.html#test-evaluating-standard-widgets",
+    "href": "test_ipywidget_evaluate.html#test-evaluating-standard-widgets",
+    "title": "Test out evaluating ipywidget code",
+    "section": "Test evaluating standard widgets",
+    "text": "Test evaluating standard widgets\n\nimport ipywidgets\n\n\nipywidgets.IntSlider()"
+  },
+  {
+    "objectID": "test_ipywidget_evaluate.html#test-evaluating-ipyleaflet",
+    "href": "test_ipywidget_evaluate.html#test-evaluating-ipyleaflet",
+    "title": "Test out evaluating ipywidget code",
+    "section": "Test evaluating ipyleaflet",
+    "text": "Test evaluating ipyleaflet\n\nfrom ipyleaflet import Map, basemaps, basemap_to_tiles\n\n\nm = Map(\n    basemap=basemap_to_tiles(basemaps.OpenStreetMap.Mapnik),\n    center=(48.204793, 350.121558),\n    zoom=3\n    )\nm"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "test-evaluate-code-3",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "test-evaluate-code-3",
+    "section": "Install",
+    "text": "Install\npip install test_evaluate_code_3"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "test-evaluate-code-3",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  },
+  {
+    "objectID": "index.html#test-datetime",
+    "href": "index.html#test-datetime",
+    "title": "test-evaluate-code-3",
+    "section": "Test datetime",
+    "text": "Test datetime\n\nimport datetime\n\n\nprint(f'time = {datetime.datetime.now()}')\n\ntime = 2022-09-16 02:17:52.655857"
+  },
+  {
+    "objectID": "core.html",
+    "href": "core.html",
+    "title": "core",
+    "section": "",
+    "text": "source\n\nfoo\n\n foo ()"
+  }
+]
