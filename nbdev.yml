@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "test-evaluate-code-3"
+  site-url: "https://tylere.github.io/test-evaluate-code-3"
+  description: "Test out evaluating code in nbdev notebooks."
+  repo-branch: master
+  repo-url: "https://github.com/tylere/test-evaluate-code-3"
